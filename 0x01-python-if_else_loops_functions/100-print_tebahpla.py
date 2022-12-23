@@ -1,19 +1,21 @@
- = 122
+#!/usr/bin/python3
 
- while i >= 97:
+i = 122
 
-         flag = 0
+while i >= 97:
 
-             if i % 2 != 0:
+        flag = 0
 
-                         i = i - 32
+            if i % 2 != 0:
 
-                                 flag = 1
+                        i = i - 32
 
-                                     print("{:s}".format(chr(i)), end="")
+                                flag = 1
 
-                                         if flag == 1:
+                                    print("{:s}".format(chr(i)), end="")
 
-                                                     i = i + 32
+                                        if flag == 1:
 
-                                                         i = i - 1
+                                                    i = i + 32
+
+                                                        i = i - 1
