@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 print(f"{ist_digit(number):
 
-            exe = 0
+            xe = 0
 
                 if number < 0:
 
